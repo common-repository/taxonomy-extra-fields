@@ -1,0 +1,21 @@
+<div>
+	<h1>Taxonomy Extra Fields</h1>
+	
+	<hr>
+	
+	<h2>{{ about_title }}</h2>
+	<p>{{ about_text_one|raw }}</p>
+	<p>{{ about_text_two|raw }}</p>
+	<p>{{ about_text_three|raw }}</p>
+	<p>{{ about_text_four|raw }}</p>
+
+	<hr>
+	
+	<h2>{{ vendors_title }}</h2>
+	<ul class="vendors">
+		{% for vendor in vendors %}
+			<li><a href="{{ vendor.url }}" title="{{ vendor.title }}"><img src="{{ vendor.img }}" title="{{ vendor.title }}" alt="{{ vendor.title }}"/></a></li>
+		{% endfor %}
+	</ul>
+
+</div>

@@ -1,0 +1,21 @@
+<tr class="form-field">
+	<th scope="row" valign="top">
+		<label for="term_meta[{{ name }}]">{{ label }}</label>
+	</th>
+	<td>
+		<input type="hidden" name="term_meta[{{ name }}]" class="tef-media-value" value="{{ value }}" />
+		<div class="tef-media-container">
+			<div class="tef-media-file {% if not value|default(0) %}no-display{% endif %}">
+				{% if value %}
+					<a href="{{ value.url }}" target="_blank" title="{{ value.title }}"><img src="{{ value.icon }}"  /> <span>{{ value.title }}</span></a>
+				{% else %}
+					<a><img  /><span></span></a>
+				{% endif %}
+			</div>
+		</div>
+		<button type="button" name="button[{{ name }}]" class="{{ class }} {{ options.button.class }} tef-media-button file button button-primary" data-type="file" data-supported="{{ options.formats|join(' ') }}">{% if not value|default(0) %}{{ options.button.text|default('Add File') }} {% else %}{{__('Replace','tef')}} {% endif %}</button>
+		{% if not description is empty %}
+			<p class="description">{{ description }}</p>
+		{% endif %}
+	</td>
+</tr>

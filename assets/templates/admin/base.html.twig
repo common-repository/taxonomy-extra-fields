@@ -1,0 +1,27 @@
+<div id="tef-admin" class="wrap">
+	<h1>{{ title }}</h1>
+	
+	<div id="poststuff">
+		
+		<img src="/wp-content/plugins/taxonomy-extra-fields/assets/images/TEF-logo.png" width="200" class="tef-water-mark" />
+	
+		<div id="post-body" class="metabox-holder columns-2">
+			
+			
+		
+			<div id="post-body-content">
+				{% block content %}
+				
+				{% endblock %}
+			</div>
+		
+			<div id="postbox-container-1" class="postbox-container">
+				<div id="side-sortables" class="meta-box-sortables ui-sortable" style="">
+					{% block aside %}
+					
+					{% endblock %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

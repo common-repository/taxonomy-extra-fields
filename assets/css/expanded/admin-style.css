@@ -1,0 +1,239 @@
+table, tr, td, th, tbody, thead {
+  box-sizing: content-box;
+}
+
+.tef-water-mark {
+  position: fixed;
+  right: 30px;
+  bottom: 10px;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.tef-media-container {
+  clear: both;
+  width: 100%;
+  display: block;
+  float: left;
+}
+
+.tef-media-container .tef-media-file {
+  display: inline-block;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.tef-media-container .tef-media-file.thumbnail {
+  border: 3px solid #FFF;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tef-media-container .tef-media-file img {
+  max-width: 200px;
+  border: 1px solid #CCC;
+}
+
+.sortable-icon {
+  cursor: row-resize;
+}
+
+.no-display {
+  display: none !important;
+}
+
+.admin_page_tef-manage-taxonomy {
+  width: 100%;
+  min-width: 100%;
+}
+
+.admin_page_tef-manage-taxonomy thead th#position {
+  width: 20px;
+}
+
+.admin_page_tef-manage-taxonomy thead th#name,
+.admin_page_tef-manage-taxonomy thead th#type {
+  width: 10%;
+}
+
+.admin_page_tef-manage-taxonomy thead th#label {
+  width: 15%;
+  width: 500px;
+}
+
+.admin_page_tef-manage-taxonomy tbody {
+  position: relative;
+}
+
+.admin_page_tef-manage-taxonomy tbody tr {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.admin_page_tef-manage-taxonomy tbody tr.in-edition .row-actions {
+  opacity: 0;
+}
+
+.admin_page_tef-manage-taxonomy tbody tr.in-edition td.label {
+  column-span: 4;
+}
+
+.admin_page_tef-manage-taxonomy tbody tr.in-edition td.name,
+.admin_page_tef-manage-taxonomy tbody tr.in-edition td.type,
+.admin_page_tef-manage-taxonomy tbody tr.in-edition td.description {
+  display: none;
+}
+
+.admin_page_tef-manage-taxonomy tbody tr.in-edition table.tef-form {
+  display: table;
+}
+
+.admin_page_tef-manage-taxonomy tbody tr td.position {
+  text-align: center;
+  font-weight: bold;
+}
+
+.admin_page_tef-manage-taxonomy tbody tr.no-items h2 {
+  line-height: 2em !important;
+}
+
+.admin_page_tef-manage-taxonomy tbody tr.no-items .button {
+  margin-left: 15px;
+}
+
+.admin_page_tef-manage-taxonomy tbody tr.ui-sortable-helper {
+  background: #e7f1ff;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.tef-form {
+  background: #FFF;
+  border: 1px solid #CCC;
+  min-width: 500px;
+  max-width: 100%;
+  width: 50%;
+  border-collapse: collapse;
+}
+
+.tef-form:not(.visible) {
+  display: none;
+}
+
+.tef-form tr {
+  border: 1px solid #CCC;
+  border-bottom: 1px solid #EEE;
+}
+
+.tef-form tr:last-child {
+  border-bottom: none;
+}
+
+.tef-form tr th {
+  width: 150px;
+  font-weight: bold;
+}
+
+.tef-form tr td {
+  position: relative;
+}
+
+.tef-form tr td input[type=text],
+.tef-form tr td input[type=number],
+.tef-form tr td textarea,
+.tef-form tr td select {
+  width: 100%;
+}
+
+.tef-form tr td input:not([readonly=readonly]) + a.unlock-field {
+  display: none;
+}
+
+.tef-form tr td input[readonly=readonly] + a.unlock-field {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: calc(100% - 18px);
+  height: calc(100% - 16px);
+  margin: 8px 10px;
+  transition: all .2s;
+  color: #333;
+  line-height: 30px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background: #e7f1ff;
+  border: 1px solid #CCC;
+  font-size: 1.3em;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.tef-form tr td input[readonly=readonly] + a.unlock-field:hover {
+  opacity: 1;
+}
+
+.tef-form tr td textarea {
+  min-height: 200px;
+}
+
+.tef-form tr td.options_list .options {
+  width: 100%;
+  float: left;
+  margin: 10px 0;
+}
+
+.tef-form tr td.options_list hr {
+  clear: both;
+}
+
+.tef-form tr td.options_list .option {
+  width: 100%;
+  position: relative;
+  float: right;
+}
+
+.tef-form tr td.options_list .option input {
+  width: 49%;
+  width: calc(50% - 4px);
+}
+
+.tef-form tr td.options_list .option .key.no-display + .value {
+  width: 100%;
+}
+
+.tef-form tr td.actions {
+  text-align: right;
+}
+
+.tef-form tr td.actions button i {
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+ul.vendors li {
+  float: left;
+  display: inline-block;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.2s all;
+  margin: 0 20px;
+  padding: 0;
+  border: 2px solid #FFF;
+}
+
+ul.vendors li * {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+ul.vendors li a {
+  border: 1px solid #EEE;
+}
+
+ul.vendors li img {
+  height: 150px;
+}
+
+ul.vendors li:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+ 

@@ -1,0 +1,32 @@
+{% extends 'admin/base.html.twig' %}
+
+{% block title %}{{ title }}{% endblock %}
+ 
+{% block content %}
+    
+    <div>
+    	
+    	
+    	<a href="{{ url_new }}" class="button button-primary add-new-field">{{ translations.addnew }}</a>
+   		
+   		<form name="fields-positions" id="fields-positions">
+   			<input type="hidden" name="unique" value="{{ unique }}" />
+   			<input type="hidden" name="nonce" value="{{ nonce }}" />
+   		</form>
+
+	</div>
+    
+    
+    {{ table.display() }}
+
+	<div>
+		
+		<form name="defaults" id="defaults">
+    		<input type="hidden" name="position" value="{{ position }}" />
+    		<input type="hidden" name="taxonomy" value="{{ taxonomy.name }}" />
+    	</form>
+	
+		<a href="{{ url_new }}" class="button button-primary add-new-field">{{ translations.addnew }}</a>
+	</div>
+
+{% endblock %}

@@ -1,0 +1,36 @@
+<tr class="form-field">
+	<th scope="row" valign="top">
+		<label for="term_meta[{{ name }}]">{{ label }}</label>
+	</th>
+	<td>
+		<ul>
+			{% if not options.options is empty %}
+				{% for option_key, option_value in options.options %}
+
+					<li>
+						<label>
+							<input name="term_meta[{{ name }}]" type="checkbox"
+								{% if options.split|default(0) %}
+									value="{{ option_key }}"
+									{% if value|default('') == option_key %}
+										checked="checked"
+									{% endif %}
+								{% else %}
+									value="{{ option_value }}"
+									{% if value|default('') == option_value %}
+										checked="checked"
+									{% endif %}
+								{% endif %}
+							/>
+							{{ option_value }}
+						</label>
+					</li>
+
+				{% endfor %}
+			{%  endif %}
+		</ul>
+		{% if not description is empty %}
+			<p class="description">{{ description }}</p>
+		{% endif %}
+	</td>
+</tr>

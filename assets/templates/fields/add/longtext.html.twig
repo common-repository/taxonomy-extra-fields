@@ -1,0 +1,7 @@
+<div class="form-field">
+	<label for="term_meta[{{ name }}]">{{ label }}</label>
+	<textarea name="term_meta[{{ name }}]" class="{{ class }}">{{ value }}</textarea>
+	{% if not description is empty %}
+		<p class="description">{{ description }}</p>
+	{% endif %}
+</div>

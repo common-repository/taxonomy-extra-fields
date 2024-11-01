@@ -1,0 +1,350 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Taxonomy Extra Fields\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Tue Jun 21 2016 17:42:18 GMT+0200 (Hora de verano "
+"romance)\n"
+"PO-Revision-Date: Tue Jun 21 2016 18:19:47 GMT+0200 (Hora de verano romance)\n"
+"Last-Translator: admin <contacto@guillermogarcia.info>\n"
+"Language-Team: \n"
+"Language: Spanish (Spain)\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Loco-Target-Locale: es_ES"
+
+#. Name of the plugin
+msgid "Taxonomy Extra Fields (BETA)"
+msgstr "Taxonomy Extra Fields (BETA)"
+
+#. Description of the plugin
+msgid ""
+"\"Taxonomy Extra Fields\" is a plugin for create and manage your own custom "
+"fields for all public taxonomies  of Wordpress (natives or created by the "
+"owner), directly from admin interface."
+msgstr ""
+"\"Taxonomy Extra Fields\" es un plugin para crear y gestionar tus propios "
+"campos para todas las taxonomías públicas de Wordpress (Nativas o creadas "
+"por tí), directamente desde la interfaz de administración."
+
+#: ../library/class/Auxiliary/TaxonomiesListTable.php:26 ..
+#: library/class/UI/TaxonomiesListTable.php:24
+msgid "Slug"
+msgstr ""
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:169
+msgid "Placeholder"
+msgstr ""
+
+#: ../library/class/UI/UI.php:189
+msgid "About this plugin"
+msgstr "Sobre este plugin"
+
+#: ../library/class/UI/UI.php:191
+#, php-format
+msgid ""
+"This plugin is created by <a href=\"%1$s\" title=\"%2$s\">%3$s</a> <a "
+"href=\"%4$s\" title=\"%5$s\">%6$s</a>. Actually, the plugin is in Beta version, "
+"it's posible that errors arising, you can get help writing in <a "
+"href=\"%7$s\">%8$s</a>."
+msgstr ""
+"Este plugin está creado por <a href=\"%1$s\" title=\"%2$s\">%3$s</a> <a "
+"href=\"%4$s\" title=\"%5$s\">%6$s</a>. Actualmente, el plugin está en versión "
+"beta, es posible que surjan errores, puedes obtener ayuda en <a "
+"href=\"%7$s\">%8$s</a>."
+
+#: ../library/class/UI/UI.php:193
+msgid "Personal website"
+msgstr "Sitio web personal"
+
+#: ../library/class/UI/UI.php:196
+msgid "Twitter profile @Flewps"
+msgstr "Perfil de Twitter @Flewps"
+
+#: ../library/class/UI/UI.php:199
+msgid "plugin support"
+msgstr "soporte para el plugin"
+
+#: ../library/class/UI/UI.php:202
+#, php-format
+msgid ""
+"If you're interested in extends the functionality of this plugin, this is "
+"the <a href=\"%1$s\" title=\"%2$s\">Github repository</a>. All contributios are "
+"welcome."
+msgstr ""
+"Si estás interesado en extender la funcionalidad de este plugin, este es  el "
+"<a href=\"%1$s\" title=\"%2$s\">repositorio Github</a>. Todas las contribuciones "
+"son bienvenidas."
+
+#: ../library/class/UI/UI.php:204
+msgid "Open Github URL"
+msgstr "Abrir dirección de GitHub"
+
+#: ../library/class/UI/UI.php:207
+#, php-format
+msgid "You can check the next milestones <a href=\"%s\">here</a>."
+msgstr "Puedes ver los próximos objetivos <a href=\"%s\">aquí</a>."
+
+#: ../library/class/UI/UI.php:210
+msgid "Thank you for use this plugin."
+msgstr "Gracias por usar este plugin."
+
+#: ../library/class/UI/UI.php:212
+msgid "Recognition to thirds"
+msgstr "Reconocimiento para terceros"
+
+#. URI of the plugin
+msgid "http://tef.guillermogarcia.info"
+msgstr "http://tef.guillermogarcia.info"
+
+#. Author of the plugin
+msgid "Guillermo Garcia (@Flewps)"
+msgstr "Guillermo Garcia (@Flewps)"
+
+#. Author URI of the plugin
+msgid "http://guillermogarcia.info"
+msgstr "http://guillermogarcia.info"
+
+#: ../library/field_types.php:10
+msgid "Text"
+msgstr "Texto"
+
+#: ../library/field_types.php:14
+msgid "Longtext"
+msgstr "Area de texto"
+
+#: ../library/field_types.php:18
+msgid "Number"
+msgstr "Número"
+
+#: ../library/field_types.php:22
+msgid "Image"
+msgstr "Imagen"
+
+#: ../library/field_types.php:26
+msgid "File"
+msgstr "Archivo"
+
+#: ../library/field_types.php:30
+msgid "Selection"
+msgstr "Selección"
+
+#: ../library/field_types.php:34
+msgid "Radio"
+msgstr "Radio"
+
+#: ../library/field_types.php:38
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: ../library/functions.php:43
+msgid "Do you want to continue?"
+msgstr "¿Quieres continuar?"
+
+#: ../library/functions.php:44
+msgid "Do you want remove this field?"
+msgstr "¿Quiere eliminar este campo?"
+
+#: ../library/functions.php:45 ../library/class/Auxiliary/TaxonomyFieldsTable.php:
+#: 165 ../library/class/UI/TaxonomyFieldsTable.php:146
+msgid "Save"
+msgstr "Guardar"
+
+#: ../library/functions.php:46
+msgid "Accept"
+msgstr "Aceptar"
+
+#: ../library/functions.php:47
+msgid "Saved"
+msgstr "Guardado"
+
+#: ../library/functions.php:48 ../library/class/Auxiliary/TaxonomyFieldsTable.php:
+#: 166 ../library/class/UI/TaxonomyFieldsTable.php:147
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../library/functions.php:66
+msgid "All"
+msgstr "Todos"
+
+#: ../library/class/Auxiliary/TaxonomiesListTable.php:25 ..
+#: library/class/Auxiliary/TaxonomyFieldsTable.php:39 ..
+#: library/class/UI/TaxonomiesListTable.php:23 ..
+#: library/class/UI/TaxonomyFieldsTable.php:39
+msgid "Taxonomy"
+msgstr "Taxonomía"
+
+#: ../library/class/Auxiliary/TaxonomiesListTable.php:27 ..
+#: library/class/UI/TaxonomiesListTable.php:25
+msgid "Custom Fields"
+msgstr "Campos personalizados"
+
+#: ../library/class/Auxiliary/TaxonomiesListTable.php:65 ..
+#: library/class/UI/TaxonomiesListTable.php:63 ..
+#: library/class/UI/TaxonomyController.php:54
+msgid "All Taxonomies"
+msgstr "Todas las taxonomías"
+
+#: ../library/class/Auxiliary/TaxonomiesListTable.php:91 ..
+#: library/class/UI/TaxonomiesListTable.php:89
+msgid "Manage"
+msgstr "Gestionar"
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:38 ..
+#: library/class/UI/TaxonomyFieldsTable.php:38
+msgid "ID"
+msgstr "ID"
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:41 ..
+#: library/class/Auxiliary/TaxonomyFieldsTable.php:158 ..
+#: library/class/UI/TaxonomyFieldsTable.php:41 ..
+#: library/class/UI/TaxonomyFieldsTable.php:139
+msgid "Label"
+msgstr "Etiqueta"
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:42 ..
+#: library/class/Auxiliary/TaxonomyFieldsTable.php:160 ..
+#: library/class/UI/TaxonomyFieldsTable.php:42 ..
+#: library/class/UI/TaxonomyFieldsTable.php:141
+msgid "Name"
+msgstr "Nombre"
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:43 ..
+#: library/class/Auxiliary/TaxonomyFieldsTable.php:159 ..
+#: library/class/UI/TaxonomyFieldsTable.php:43 ..
+#: library/class/UI/TaxonomyFieldsTable.php:140
+msgid "Type"
+msgstr "Tipo"
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:44 ..
+#: library/class/Auxiliary/TaxonomyFieldsTable.php:161 ..
+#: library/class/UI/TaxonomyFieldsTable.php:44 ..
+#: library/class/UI/TaxonomyFieldsTable.php:142
+msgid "Description"
+msgstr "Descripción"
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:45 ..
+#: library/class/UI/TaxonomyFieldsTable.php:45
+msgid "Is Required"
+msgstr "Es Obligatorio"
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:134 ..
+#: library/class/UI/TaxonomyFieldsTable.php:116
+msgid "Edit"
+msgstr "Editar"
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:145 ../library/class/UI/UI.
+#: php:135 ../library/class/UI/UI.php:136
+msgid "New Field"
+msgstr "Nuevo Campo"
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:162 ..
+#: library/class/UI/TaxonomyFieldsTable.php:143
+msgid "Options"
+msgstr "Opciones"
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:163 ..
+#: library/class/UI/TaxonomyFieldsTable.php:144
+msgid "Required"
+msgstr "Obligatorio"
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:164 ..
+#: library/class/UI/TaxonomyFieldsTable.php:145
+msgid "Select an option"
+msgstr "Selecciona una opción"
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:167 ..
+#: library/class/UI/TaxonomyFieldsTable.php:148
+msgid "Unlock"
+msgstr "Desbloquear"
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:168
+msgid "Default value"
+msgstr "Valor por defecto"
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:170
+msgid "Options list"
+msgstr "Lista de opciones"
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:171
+msgid "Split Key/Value"
+msgstr "Dividir Clave/Valor"
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:187
+msgid "Drag to reorder"
+msgstr "Arrastrar para reordenar"
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:193 ..
+#: library/class/UI/TaxonomyFieldsTable.php:170
+msgid "Unknow"
+msgstr "Desconocido"
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:210 ..
+#: library/class/UI/TaxonomyFieldsTable.php:187
+msgid "No custom fields found."
+msgstr "No se han encontrado campos personalizados."
+
+#: ../library/class/Auxiliary/TaxonomyFieldsTable.php:210 ..
+#: library/class/UI/TaxonomyController.php:71
+msgid "Add new field"
+msgstr "Añadir nuevo campo"
+
+#. Name of the plugin
+#: ../library/class/UI/UI.php:83 ../library/class/UI/UI.php:84
+msgid "Taxonomy Extra Fields"
+msgstr "Taxonomy Extra Fields"
+
+#: ../library/class/UI/UI.php:93 ../library/class/UI/UI.php:94
+msgid "Credits"
+msgstr "Créditos"
+
+#: ../library/class/UI/UI.php:128 ../library/class/UI/UI.php:129
+msgid "Manage Taxonomies"
+msgstr "Gestionar Taxonomías"
+
+#: ../library/class/UI/UI.php:142 ../library/class/UI/UI.php:143
+msgid "Edit Field"
+msgstr "Editar Campo"
+
+#: ../library/class/UI/UI.php:149 ../library/class/UI/UI.php:150
+msgid "Delete Field"
+msgstr "Eliminar Campo"
+
+#: ../library/class/UI/UI.php:216
+msgid "Twig: The flexible, fast, and secure template engine for PHP"
+msgstr "Twig: El motor de plantillas flexible, rápido y seguro para PHP"
+
+#: ../library/class/UI/UI.php:221
+msgid "(Noty)2: jquery notification plugin"
+msgstr "(Noty)2: Plugin jQuery para notificaciones"
+
+#: ../library/class/UI/UI.php:226
+msgid "Animate.CSS: Just-add-water CSS animations"
+msgstr "Animate.CSS: Animaciones CSS"
+
+#: ../library/class/UI/UI.php:231
+msgid "Font Awesome: The iconic font and CSS toolkit"
+msgstr "Font Awesome: Pack de iconos y herramientas CSS"
+
+#: ../library/class/UI/TaxonomiesListTable.php:90
+msgid "Add New"
+msgstr "Añadir Nuevo"
+
+#: ../library/class/UI/TaxonomyFieldsTable.php:187
+msgid "Add new"
+msgstr "Añadir nuevo"
+
+#: ../library/class/UI/TaxonomyController.php:67
+#, php-format
+msgid "Taxonomy: %s"
+msgstr "Taxonomía: %s"
